@@ -1,10 +1,32 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Kebab",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kebab"
+    },
+    {
+      "name": "Food",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "food"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.elssas_kebab.kebab": "Kebab",
+      "itemGroup.tabfood": "Food"
+    }
   },
   "foldersRoot": {
     "name": "~",
